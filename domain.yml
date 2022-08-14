@@ -1,0 +1,70 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+entities:
+- intent_button
+slots:
+  intent_button:
+    type: list
+    influence_conversation: true
+
+intents:
+- faq:
+    is_retrieval_intent: true
+- faq2:
+    is_retrieval_intent: true
+- faq3:
+    is_retrieval_intent: true
+- greet
+- goodbye
+- bot_challenge
+- affirm
+- deny
+- ok
+# - ok_faq3
+# - ok_faq2
+- mood_great
+- mood_unhappy
+
+responses:
+  utter_faq3/tester:
+  - text: "RESPONSE for TESTER"
+  utter_faq3/tester1:
+  - text: "RESPONSE for TESTER1"
+  utter_faq/ask_name:
+  - text: Salam, man la tiku Bot bu IAS.
+  - text: Tuki Bot lañ may woye wa IAS ñoma defar !
+  utter_faq/ask_weather:
+  - text: hii, dafa melni tay ndakaru naac bi tàgul tay.
+  - text: xamu ma fan yi di ñew nu jawu ji di mël, waye tay da don taw.
+  utter_faq2/how_can_you_help:
+  - text: Dañuy wañi jëk yi ngir sunu client yi !
+  utter_faq2/food_help:
+  - text: Ño ngi jëgalu duñu jòxe lek si yoonu tuki bi
+
+  utter_greet:
+  - text: Wa jàmbar ! Na nga def nak ?
+  - text: Ah Alhamdulilah ginaaw ya ngi ci jàmm
+
+  utter_cheer_up:
+  - text: 'Natal bi mënes na woyofal sa tisa nge:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Ndax lolu dimbali nala ?
+  utter_happy:
+  - text: Ah waaw kay way, ñu yegali waxtan bi kon !
+  utter_goodbye:
+  - text: wa ba bennen yoon
+  utter_iamabot:
+  - text: Wa ab chatbot la, PSW bu IAS moma defar
+  # utter_ok_faq3:
+  # - text: Ok go ahead  :)
+  # utter_ok_faq2:
+  # - text: Ok go ahead  :) 
+  utter_ok:
+  - text: Acca bok, nako dal :) 
+actions:
+- action_slot_setter
+- action_faq3

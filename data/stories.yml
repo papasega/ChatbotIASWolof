@@ -1,0 +1,63 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: action_slot_setter
+
+- story: ok story
+  steps:
+  # - intent: ok_faq3
+  - intent : ok
+    entities:
+      - intent_button: "faq3"
+  - slot_was_set:
+      - intent_button: "faq3"
+  # - action : utter_ok_faq3
+  - action: utter_ok
+
+- story: ok story
+  steps:
+  # - intent: ok_faq2
+  - intent : ok
+    entities:
+      - intent_button: "faq2"
+  - slot_was_set:
+      - intent_button: "faq2"
+  # - action : utter_ok_faq2
+  - action : utter_ok
+
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: faq
+#   - action: utter_faq
+#   - intent: bot_challenge
+#   - action: utter_iamabot
+#   - intent: goodbye
+#   - action: utter_goodbye

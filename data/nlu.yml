@@ -1,0 +1,170 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - na nga def 
+    - salam
+    - salamlekum
+    - na ngen def
+    - ñu tàmbali
+    - ñu tàmbali !
+    - acà
+    - acà bok
+    - assalamu haleykum
+    - demal ci tàmbali bi
+    - salam
+    - salamu haleykum
+
+- intent: goodbye
+  examples: |
+    - ñu yendo ci jàam
+    - ba si kanam
+    - ñu fanan ak jàam
+    - ñu fanan ci jàam
+    - ba suba
+    - ñu def nonu
+    - ba elëk
+    - amal jàam
+    - ba fan yi
+    - amal jàam ngu bari
+    - nekal ci jàam
+    - nekal si jàam way
+
+- intent: affirm
+  examples: |
+    - wa
+    - waaw
+    - wa waaw
+    - waaw kañ
+    - waaw kãn nak
+    - nonu la
+
+- intent: deny
+  examples: |
+    - dèedèet
+    - dèet
+    - mùku
+    - dèet way
+    - mùk ci àdina
+    - xamu ma
+    - bëgguma
+    - dèet kañ
+    - du lolu dè
+
+- intent: mood_great
+  examples: |
+    - baxna
+    - ma sha Allah
+    - yemena de
+    - ma ngi meleni buur
+    - merveilleux:fra
+    - sant bu baax
+    - ma sha Allah !
+    - tawfèx
+    - tawfèx bu baax
+    - mbek te rek
+    - bëgg rek way
+    - kontan te
+    - kontan rek xana
+    - bëgg bu baax way
+    - li ka neex way
+
+- intent: faq/ask_name
+  examples: |
+    - no tudu ?
+    - lan moy sa tur ?
+    - luy sa tur ?
+    - no sant ?
+    - lan moy sa sant ?
+    - ndax mëna xam sa tur ?
+    - naka lan lay wowe ?
+    - nit yi nan lan lay wowe ?
+    - no tude sa bop ?
+    
+- intent: faq/ask_weather
+  examples: |
+    - tay jawu ji numu mel ?
+    - ba tàngul tay rek ?
+    - ba tàngul tay ?
+    - ba mboyawul si biti ?
+    - ba tàngul si biir kër ngi ?
+    - si biir ba tàngul ?
+    - Nga bal ma ndax mën nga ma wax ni jawu ji mel tay ?
+    - Bès ñu ma gëna nex moy bès ñu naj bi di gën ci ndakaru.
+
+- intent: faq2/how_can_you_help
+  examples: |
+    - naka la mëne ndibël ngir jënd tiket fi ? 
+    - dama bëgga jënd tiket ngir tuki kasamas 
+    - fuñuy jaye tiket yi ? 
+    - ndax pass yi di nañu wañeku ? 
+    - tuki-bot.com ndax dana ma wañil pass bi ?
+    - naka la sen jumtukay tuki-bot mëna dimbamlé tuki kat yi ?
+
+- intent: faq2/food_help
+  examples: |
+    - ndax di gën jòxe lek si yoon bi ? 
+    - di na mëna jënd lek suma xife ? 
+    - tuki-bot dina jòxe lek ? 
+    - Suma àge si bennen dëk ndax dina am luma mëna lek fofu ?
+    - mba sen jëk yi yombu na rek ?
+    - Sen lek yan xetu ñam la  ?
+
+- intent: faq3/tester
+  examples: |
+    - li ni intent ngir testeur:fra yi la 
+    - ma ngi jëfandiko intent:fra bi ngir tester:fra
+    - waaw, test:fra rek la de
+    - Faq3 moy intent:fra ngir test:fra yi
+
+- intent: faq3/tester1
+  examples: |
+    - li ni intent ngir test1:fra
+    - ma ngi jëfandiko intent:fra bi ngir testr:fra test1:fra
+    - waaw, test1:fra bi la de 
+    - Faq3 moy intent:fra ngir test1:fra bi 
+
+
+
+- intent: mood_unhappy
+  examples: |
+    - tay sama bès bi nexul 
+    - dama fasu tay 
+    - dama xawa tayal tay
+    - dama am mbetel tay 
+    - mbetel gu rëy 
+    - sama yaram bi dafa sof tay 
+    - mbetel 
+    - doyena war 
+    - nakaru xol 
+    - sama xol mo nakari 
+    - dama am lu tis 
+    - mbir muma tis lool way 
+    - li de dis nama lool 
+    - sama xol bi nakari na 
+- intent: bot_challenge
+  examples: |
+    - nda yaw robot nga  ?
+    - ndax yaw nit nga ?
+    - nda ab robot lay waxal ?
+    - ndax nit momay tontu ?
+    - ndax yaw chatbot nga ?
+
+- intent: ok
+  examples : |
+    - ok
+    - ok
+    - baxe na 
+    - man de parena 
+    - wa baax na .
+    - ok wa baax na 
+
+# - intent: ok_faq2
+#   examples : |
+#     - ok 2
+#     - okay2
+#     - done
+#     - its over form my side
+#     - Done
+#     - okay its done
+

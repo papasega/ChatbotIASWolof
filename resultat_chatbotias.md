@@ -27,16 +27,16 @@
 
 2022-08-14 15:40:30 INFO     rasa.model_testing  - Intent evaluation results
 
-2022-08-14 15:40:30 INFO     rasa.nlu.test  - train Accuracy: 1.000 (0.000)
+2022-08-14 15:40:30 INFO     rasa.nlu.test  - `train Accuracy: 1.000 (0.000)`
 
-2022-08-14 15:40:30 INFO     rasa.nlu.test  - train F1-score: 1.000 (0.000)
+2022-08-14 15:40:30 INFO     rasa.nlu.test  - `train F1-score: 1.000 (0.000)`
 
-2022-08-14 15:40:30 INFO     rasa.nlu.test  - train Precision: 1.000 (0.000)
+2022-08-14 15:40:30 INFO     rasa.nlu.test  - `train Precision: 1.000 (0.000)`
 
-2022-08-14 15:40:30 INFO     rasa.nlu.test  - test Accuracy: 0.868 (0.030)
+2022-08-14 15:40:30 INFO     rasa.nlu.test  - `test Accuracy: 0.868 (0.030)`
 
-2022-08-14 15:40:30 INFO     rasa.nlu.test  - test F1-score: 0.861 (0.033)
+2022-08-14 15:40:30 INFO     rasa.nlu.test  - `test F1-score: 0.861 (0.033)`
 
-2022-08-14 15:40:30 INFO     rasa.nlu.test  - test Precision: 0.886 (0.042)
+2022-08-14 15:40:30 INFO     rasa.nlu.test  - `test Precision: 0.886 (0.042)`
 
 

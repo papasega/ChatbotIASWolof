@@ -5,28 +5,15 @@
 2022-08-14 15:40:27 INFO     rasa.nlu.test  - Classification report saved to results/intent_report.json.
 2022-08-14 15:40:27 INFO     rasa.nlu.test  - Incorrect intent predictions saved to results/intent_errors.json.
 2022-08-14 15:40:27 INFO     rasa.utils.plotting  - Confusion matrix, without normalization: 
-[[ 5  0  0  0  0  0  1  0  0  0  0]
- [ 0  5  0  0  0  0  0  0  0  0  0]
- [ 0  0  5  0  0  0  1  1  1  1  0]
- [ 0  0  0 16  1  0  0  0  0  0  0]
- [ 0  0  0  0 12  0  0  0  0  0  0]
- [ 0  0  0  0  0  8  0  0  0  0  0]
- [ 0  0  0  0  0  0 11  1  0  0  0]
- [ 0  0  0  0  0  0  0 11  0  0  0]
- [ 1  0  0  2  0  1  0  0  9  0  2]
- [ 1  0  0  0  0  0  0  0  0 13  0]
- [ 0  0  0  0  0  0  0  0  1  0  4]]
+
+
 2022-08-14 15:40:29 INFO     rasa.nlu.test  - Accumulated test folds response selection evaluation results:
 2022-08-14 15:40:29 INFO     rasa.nlu.test  - Response Selection Evaluation: Only considering those 37 examples that have a defined response out of 37 examples.
 2022-08-14 15:40:29 INFO     rasa.nlu.test  - Classification report saved to results/response_selection_report.json.
 2022-08-14 15:40:29 INFO     rasa.nlu.test  - Incorrect response predictions saved to results/response_selection_errors.json.
 2022-08-14 15:40:29 INFO     rasa.utils.plotting  - Confusion matrix, without normalization: 
-[[9 0 0 0 0 0]
- [1 7 0 0 0 0]
- [0 0 6 0 0 0]
- [0 0 1 5 0 0]
- [0 0 0 0 2 2]
- [0 0 0 0 2 2]]
+
+
 2022-08-14 15:40:30 INFO     rasa.model_testing  - CV evaluation (n=5)
 2022-08-14 15:40:30 INFO     rasa.model_testing  - Intent evaluation results
 2022-08-14 15:40:30 INFO     rasa.nlu.test  - train Accuracy: 1.000 (0.000)
@@ -35,6 +22,8 @@
 2022-08-14 15:40:30 INFO     rasa.nlu.test  - test Accuracy: 0.868 (0.030)
 2022-08-14 15:40:30 INFO     rasa.nlu.test  - test F1-score: 0.861 (0.033)
 2022-08-14 15:40:30 INFO     rasa.nlu.test  - test Precision: 0.886 (0.042)
+
+
 2022-08-14 15:40:30 INFO     rasa.model_testing  - Response Selection evaluation results
 2022-08-14 15:40:30 INFO     rasa.nlu.test  - train Accuracy: 1.000 (0.000)
 2022-08-14 15:40:30 INFO     rasa.nlu.test  - train F1-score: 1.000 (0.000)

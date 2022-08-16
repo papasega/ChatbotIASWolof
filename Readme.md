@@ -1,4 +1,3 @@
-# PSW
 ### You need to setup a virtual machine with python==3.8 and install rasa==3.1
 ### Create a venv on Ubuntu: 
 
@@ -28,3 +27,6 @@
   - `mkdir mychatbot`
   
 ### Run `rasa init`
+
+---------------------------------------------------------------------------------------------------
+# [PSW](https://solo.to/mathspsw)

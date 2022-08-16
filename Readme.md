@@ -27,6 +27,7 @@
   - `mkdir mychatbot`
   
 ### Run `rasa init`
+
 /!\ Be careful with `rasa init` after downloading the data, domain.yml and config.yml the command will reset everything  
 ---------------------------------------------------------------------------------------------------
 # [PSW](https://solo.to/mathspsw)

@@ -30,6 +30,6 @@
 
 /!\ Be careful with `rasa init` after downloading the data, domain.yml and config.yml the command will reset everything  
 
-###### Your Turn: Try changing the tokonizer and a new use case, run a new model and compare the results. 
+#### Your Turn: Try changing the tokonizer and a new use case, run a new model and compare the results. 
 ---------------------------------------------------------------------------------------------------
 # [PSW](https://solo.to/mathspsw)

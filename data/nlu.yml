@@ -94,7 +94,7 @@ nlu:
 
 - intent: faq2/how_can_you_help
   examples: |
-    - naka la mëne ndibël ngir jënd tiket fi ? 
+    - naka la mëne ame ndibël ngir jënd tiket fi ? 
     - dama bëgga jënd tiket ngir tuki kasamas 
     - fuñuy jaye tiket yi ? 
     - ndax pass yi di nañu wañeku ? 
